@@ -3,6 +3,7 @@
 #include <vector>
 #include <set>
 #include <stack>
+using std::vector;
 
 
 class face { // face of the input polyhedron

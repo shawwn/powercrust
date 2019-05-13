@@ -12,14 +12,19 @@
  * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
  */
 
-#include <fstream.h>
-#include <vector.h>
-#include <set.h>
-#include <stack.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <set>
+#include <stack>
 #include "ndefs.h"
 #define CORRECT 2
 #define WRONG 3
 
+using std::cout;
+using std::ifstream;
+using std::ofstream;
+using std::stack;
 
 
 bool reverseFaces=false;
